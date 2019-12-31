@@ -5,7 +5,7 @@ type LogWriter interface {
 	Write(data interface{}) error
 }
 
-// 日志器
+// 声明日志器
 type Logger struct {
 	writerList []LogWriter
 }
